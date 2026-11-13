@@ -1,0 +1,102 @@
+# Contenu de la carte de profil (français et anglais).
+# Après modification : python build.py   (puis commit et push)
+# Largeurs maximales : 47 caractères pour une valeur, 37 pour un résultat de projet (build.py le vérifie).
+
+login = "narusly"
+user = "maxime"
+host = "fruntes"
+
+[titles]
+projects = {fr = "Projets", en = "Projects"}
+contact = {fr = "Contact", en = "Contact"}
+github = {fr = "GitHub", en = "GitHub"}
+
+# ---------------------------------------------------------------- bloc principal
+# Une ligne par entrée ; `more` ajoute une seconde ligne sous la valeur.
+[[info]]
+key = {fr = "Poste", en = "Role"}
+value = {fr = "Data Scientist junior", en = "Junior Data Scientist"}
+
+[[info]]
+key = {fr = "Statut", en = "Status"}
+value = {fr = "En recherche d'un premier poste (CDI)", en = "Open to a first full-time role"}
+highlight = true
+
+[[info]]
+key = {fr = "Lieu", en = "Location"}
+value = {fr = "Reims · mobile France, Luxembourg, Suisse", en = "Reims, France · open to FR, LU, CH"}
+
+[[info]]
+key = {fr = "Formation", en = "Education"}
+value = {fr = "Master 2 Mathématiques appliquées, 2026", en = "MSc in Applied Mathematics, 2026"}
+more = {fr = "Probabilités et Statistiques, Univ. de Lorraine", en = "Probability & Statistics · Univ. of Lorraine"}
+
+[[info]]
+key = {fr = "Expérience", en = "Experience"}
+value = {fr = "Stage data scientist, EPSM de la Marne (2026)", en = "Data science intern, EPSM de la Marne (2026)"}
+more = {fr = "risque de réhospitalisation · données de santé", en = "hospital readmission risk · health data"}
+
+[[info]]
+blank = true
+
+[[info]]
+key = {fr = "Langages", en = "Code"}
+value = "Python, R, SQL, MATLAB, Julia"
+
+[[info]]
+key = {fr = "Python", en = "Python"}
+value = "scikit-learn, XGBoost, pandas, NumPy"
+
+[[info]]
+key = {fr = "Outils", en = "Tools"}
+value = "Power BI (DAX), Git, pytest, GitHub Actions"
+
+[[info]]
+key = {fr = "Méthodes", en = "Methods"}
+value = {fr = "scoring, clustering, Monte Carlo, SPC", en = "scoring, clustering, Monte Carlo, SPC"}
+
+[[info]]
+key = {fr = "Langues", en = "Languages"}
+value = {fr = "français, anglais, roumain (débutant)", en = "French (native), English, Romanian (beginner)"}
+
+# ---------------------------------------------------------------- projets (nom du dépôt : résultat clé)
+[[projects]]
+repo = "scoring-appetence"
+result = {fr = "AUC 0,77, mais 0,65 hors temps", en = "AUC 0.77, but 0.65 out of time"}
+
+[[projects]]
+repo = "var-monte-carlo"
+result = {fr = "VaR 99 %, Kupiec sur 15 ans (BCE)", en = "99% VaR, Kupiec test over 15 years"}
+
+[[projects]]
+repo = "segmentation-clients"
+result = {fr = "13 % des clients, 36 % des défauts", en = "13% of customers, 36% of defaults"}
+
+[[projects]]
+repo = "spc-fonderie"
+result = {fr = "dérive repérée en 8 contrôles, pas 31", en = "drift caught in 8 samples, not 31"}
+
+[[projects]]
+repo = "automate-cellulaire"
+result = {fr = "percolation : 0,5926 (théorie 0,5927)", en = "percolation: 0.5926 (theory 0.5927)"}
+
+# ---------------------------------------------------------------- contact
+[[contact]]
+key = {fr = "E-mail", en = "Email"}
+value = "maxime.fruntes@gmail.com"
+
+[[contact]]
+key = "LinkedIn"
+value = "in/maxime-fruntes-2538543a5"
+
+[[contact]]
+key = "Portfolio"
+value = "fruntes-portfolio-magic.vercel.app"
+
+# ---------------------------------------------------------------- libellés de la ligne de statistiques
+[stats]
+repos = {fr = "Dépôts", en = "Repos"}
+tests = {fr = "Tests", en = "Tests"}
+ci = {fr = "CI", en = "CI"}
+stars = {fr = "Étoiles", en = "Stars"}
+followers = {fr = "Abonnés", en = "Followers"}
