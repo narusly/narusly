@@ -80,6 +80,10 @@ result = {fr = "dérive repérée en 8 contrôles, pas 31", en = "drift caught i
 repo = "automate-cellulaire"
 result = {fr = "percolation : 0,5926 (théorie 0,5927)", en = "percolation: 0.5926 (theory 0.5927)"}
 
+[[projects]]
+repo = "ptcgp-meta-analyzer"
+result = {fr = "1er deck : 29 % d'être le meilleur", en = "top deck: 29% chance of being best"}
+
 # ---------------------------------------------------------------- contact
 [[contact]]
 key = {fr = "E-mail", en = "Email"}
